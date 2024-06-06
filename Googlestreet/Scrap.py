@@ -29,7 +29,7 @@ file_path = '/Users/fredericdai/Desktop/Projet/Exceltri/ton_nouveau_fichier.xlsx
 excel_data = pd.read_excel(file_path)
 
 # Remplacez 'YOUR_API_KEY' par votre clé API Google Street View
-api_key = "AIzaSyBIYqcPlAu7pt0sv2BBrr2raqPtVHrAtdc"
+api_key = "api"
 
 # Process each row in the Excel file
 for index, row in excel_data.iterrows():

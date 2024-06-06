@@ -20,7 +20,7 @@ Pid = first.pano_id
 
 from streetview import get_panorama_meta
 
-meta = get_panorama_meta(pano_id=Pid, api_key='AIzaSyBIYqcPlAu7pt0sv2BBrr2raqPtVHrAtdc')
+meta = get_panorama_meta(pano_id=Pid, api_key='API')
 
 print(meta)
 
@@ -34,7 +34,7 @@ from streetview import get_streetview
 
 image = get_streetview(
     pano_id=Pid,
-    api_key='AIzaSyBIYqcPlAu7pt0sv2BBrr2raqPtVHrAtdc',
+    api_key='API',
     heading = 90,
 )
 
