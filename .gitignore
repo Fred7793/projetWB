@@ -166,3 +166,6 @@ cython_debug/
 
 # Ignore the Database folder
 Database/
+
+# Ignore the runs
+runs/
