@@ -1,11 +1,9 @@
-import ultralytics
 from ultralytics import YOLO
 
-# Model
-model = YOLO("runs/detect/train/weights/best.pt")  # build a new model from scratch
+# model = YOLO('yolov8m.yaml') #from scratch
+model = YOLO("runs/detect/train/weights/best.pt")  #import best one from training
 
-#results = model.train(data="Model/config_layer1.yaml", epochs=1, device="mps")  # train the model
-# evaluate model performance on the validation set
+# results = model.train(data="Model/config_layer1.yaml", epochs=1, device="mps")  #train the model
 # metrics = model.val()
 
 # predict on an image
