@@ -1,0 +1,16 @@
+# Update for your relative path
+path : /Users/guillaume/Downloads/Imperial/Spring/GDP/projectWB/Database/DataLayer2
+train: images/train
+val: images/valid
+test: images/test
+
+names: 
+  0 : bikelane
+  1 : central_hatch
+  2 : crossing
+  3 : phy_med
+  4 : pole
+  5 : pro_bikelane
+  6 : pro_sidewalk
+  7 : safety_bar
+  8 : sidewalk
