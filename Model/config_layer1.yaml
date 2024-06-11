@@ -3,6 +3,7 @@ path : /Users/guillaume/Downloads/Imperial/Spring/GDP/projectWB/Database/DataLay
 train: images/train
 val: images/valid
 
+
 names: 
   0 : car
   1 : traffic light
