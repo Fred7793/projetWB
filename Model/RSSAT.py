@@ -251,8 +251,25 @@ def check_bicycle_facilities(index):
 
 data['bicycle_facilities'] = data.apply(lambda row: check_bicycle_facilities(row['index']), axis=1)
 
+# Adding new column for road marking and road sign assessment
+def road_marking_sign_assessment():
+    relevant_classes = ['crossing', 'line1', 'arrow_st', 'traffic sign', 'arrow_st_left', 'diamond', 'arrow_right', 'slow', 'central_hatch', 'line2', 'yellowmark', 'arrow_st_right', 'bike', 'arrow_left']
+    total_count = data[data['class'].isin(relevant_classes)]['count'].sum()
+    unique_indices = data['index'].nunique()
+    assessment_value = total_count / unique_indices
+
+    if assessment_value < 2:
+        return 'Poor'
+    elif 1 <= assessment_value <= 5:
+        return 'Fair'
+    else:
+        return 'Good'
+
+# Creating a new column for the assessment
+data['road_marking_sign_assessment'] = road_marking_sign_assessment()
+
 # Extracting only relevant columns to match the required output format
-required_data = data[['class', 'roundabout_present', 'grade_junction_present', 'signalized_junction_present', 'signalized_crossing_present', 'marked_crossing_present', 'safety_barriers_present', 'static_roadside_object_present', 'minor_hazards_present', 'pedestrian_facilities', 'central_hatching_present', 'physical_median_present', 'safety_barrier_present', 'bicycle_facilities']].drop_duplicates()
+required_data = data[['class', 'roundabout_present', 'grade_junction_present', 'signalized_junction_present', 'signalized_crossing_present', 'marked_crossing_present', 'safety_barriers_present', 'static_roadside_object_present', 'minor_hazards_present', 'pedestrian_facilities', 'central_hatching_present', 'physical_median_present', 'safety_barrier_present', 'bicycle_facilities', 'road_marking_sign_assessment']].drop_duplicates()
 
 # Calculating the outputs
 roundabout_present = 'Present' if (required_data['roundabout_present'] == 'Present').any() else 'None'
@@ -268,6 +285,7 @@ central_hatching_present = 'Present' if (required_data['central_hatching_present
 physical_median_present = 'Present' if (required_data['physical_median_present'] == 'Present').any() else 'None'
 safety_barrier_present = 'Present' if (required_data['safety_barrier_present'] == 'Present').any() else 'None'
 bicycle_facilities = required_data['bicycle_facilities'].max()
+road_marking_sign_assessment = required_data['road_marking_sign_assessment'].max()
 
 # Creating a table in the same style as the provided image
 output_table = pd.DataFrame({
@@ -280,6 +298,7 @@ output_table = pd.DataFrame({
         'Dominant Roadside Object',
         'Dominant Roadside Object',
         'Dominant Roadside Object',
+        'Segment Characteristics',
         'Segment Characteristics',
         'Segment Characteristics',
         'Segment Characteristics',
@@ -299,7 +318,8 @@ output_table = pd.DataFrame({
         'Central Hatching',
         'Physical Median',
         'Safety Barrier',
-        'Bicycle Facilities'
+        'Bicycle Facilities',
+        'Road marking and Road sign'
     ],
     'Output': [
         roundabout_present, 
@@ -314,7 +334,8 @@ output_table = pd.DataFrame({
         central_hatching_present,
         physical_median_present,
         safety_barrier_present,
-        bicycle_facilities
+        bicycle_facilities,
+        road_marking_sign_assessment
     ]
 })
 
