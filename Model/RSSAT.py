@@ -131,20 +131,20 @@ def select_save_path(message=str):
     return save_path
 
 while True:
-    user_need = input("\nDo you have aerial pictures in your dataset (enter: Y) or only ground-level pictures (enter: n)?\nY/n: ").strip().lower()
+    user_need = input("\nDo you have aerial pictures in your dataset (enter: y) or only ground-level pictures (enter: n)?\ny/n: ").strip().lower()
     
     if user_need == "n":
         models = [Layer1, Layer2, Layer4]
         print("Initialized YOLO models for ground-level pictures.")
         break
 
-    elif user_need == "Y":
+    elif user_need == "y":
         models = [Layer1, Layer2, Layer3, Layer4]
         print("Initialized YOLO models for a mix of ground-level and aerial pictures.")
         break 
 
     else:
-        print("\nInvalid input. Please enter 'Y' or 'n'.\n")
+        print("\nInvalid input. Please enter 'y' or 'n'.")
 
 RSSAT_classes = list(set([name for model in [Layer1, Layer2, Layer3, Layer4] for name in model.names.values()]))
 all_classes = list(set([name for model in models for name in model.names.values()]))
