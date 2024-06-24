@@ -169,3 +169,6 @@ Database/
 
 # Ignore the runs
 runs/
+
+# Ignore the Demo folder
+DEMO/
