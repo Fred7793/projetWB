@@ -5,7 +5,7 @@ file_path = 'Webscraping/Exceltri/coord_in.xlsx'
 df = pd.read_excel(file_path, engine='openpyxl')
 
 # Display column names to check that they are correct
-print("Colonnes disponibles dans le fichier :", df.columns)
+print("Columns available in the file :", df.columns)
 
 # Function for separating longitude and latitude
 def split_coordinates(coordinate):
