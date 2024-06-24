@@ -28,7 +28,7 @@ def get_street_view_image(lat, lon, api_key, heading=0, pitch=0, fov=90, size="6
 file_path = 'Webscraping/Exceltri/coord_out.xlsx'
 excel_data = pd.read_excel(file_path)
 
-# Remplacez 'YOUR_API_KEY' par votre clé API Google Street View
+# Remplace 'YOUR_API_KEY' with your API Google Street View key
 api_key = "api_key"
 
 # Process each row in the Excel file
