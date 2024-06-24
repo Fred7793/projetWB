@@ -1,13 +1,13 @@
 import pandas as pd
 
-# Lire le fichier Excel
+# Read Excel file
 file_path = 'Webscraping/Exceltri/coord_in.xlsx'
 df = pd.read_excel(file_path, engine='openpyxl')
 
-# Afficher les noms des colonnes pour vérifier le nom correct
+# Display column names to check that they are correct
 print("Colonnes disponibles dans le fichier :", df.columns)
 
-# Fonction pour séparer la longitude et la latitude
+# Function for separating longitude and latitude
 def split_coordinates(coordinate):
     try:
         longitude, latitude = coordinate.split(',')
@@ -15,14 +15,14 @@ def split_coordinates(coordinate):
     except Exception as e:
         return pd.Series([None, None])
 
-# Vérifier si la colonne "Coordinates" existe dans le DataFrame
+# Check whether the "Coordinates" column exists in the DataFrame
 if 'Coordinates' in df.columns:
-    # Appliquer la fonction de séparation à la colonne "Coordinates"
+    # Apply the separation function to the "Coordinates" column
     df[['Longitude', 'Latitude']] = df['Coordinates'].apply(split_coordinates)
 
-    # Sauvegarder le DataFrame modifié dans un nouveau fichier Excel
+    # Save the modified DataFrame in a new Excel file
     output_file_path = 'Webscraping/Exceltri/coord_out.xlsx'
     df.to_excel(output_file_path, index=False, engine='openpyxl')
-    print("Séparation des coordonnées terminée et fichier sauvegardé.")
+    print("Coordinate separation completed and file saved.")
 else:
-    print("La colonne 'Coordinates' n'existe pas dans le fichier. Vérifiez le nom de la colonne.")
+    print("The 'Coordinates' column does not exist in the file. Check the column name.")
