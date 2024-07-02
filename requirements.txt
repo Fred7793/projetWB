@@ -7,3 +7,8 @@ matplotlib
 opencv-python
 tkinter
 collections
+requests
+pillow
+boto3
+botocore
+tqdm
