@@ -1,0 +1,56 @@
+filename,object_id,class,confidence,Index,GPS
+/Users/fredericdai/Desktop/Projet/images test/test/33_jpg.rf.bf164eecdebcb47ac26fb8b01985a2f8.jpg,traffic sign_1,traffic sign,0.35359159111976624,IMG_0,-
+/Users/fredericdai/Desktop/Projet/images test/test/33_jpg.rf.bf164eecdebcb47ac26fb8b01985a2f8.jpg,line1_1,line1,0.9473156332969666,IMG_0,-
+/Users/fredericdai/Desktop/Projet/images test/test/33_jpg.rf.bf164eecdebcb47ac26fb8b01985a2f8.jpg,line1_2,line1,0.9456289410591125,IMG_0,-
+/Users/fredericdai/Desktop/Projet/images test/test/33_jpg.rf.bf164eecdebcb47ac26fb8b01985a2f8.jpg,arrow_st_left_1,arrow_st_left,0.9250293970108032,IMG_0,-
+/Users/fredericdai/Desktop/Projet/images test/test/33_jpg.rf.bf164eecdebcb47ac26fb8b01985a2f8.jpg,arrow_st_1,arrow_st,0.8987954258918762,IMG_0,-
+/Users/fredericdai/Desktop/Projet/images test/test/33_jpg.rf.bf164eecdebcb47ac26fb8b01985a2f8.jpg,line1_3,line1,0.8586907386779785,IMG_0,-
+/Users/fredericdai/Desktop/Projet/images test/test/33_jpg.rf.bf164eecdebcb47ac26fb8b01985a2f8.jpg,arrow_st_2,arrow_st,0.5659832954406738,IMG_0,-
+/Users/fredericdai/Desktop/Projet/images test/test/19_jpg.rf.af396de083ca056a52e6cb2a787ab074.jpg,tree_1,tree,0.4168129861354828,IMG_1,-
+/Users/fredericdai/Desktop/Projet/images test/test/19_jpg.rf.af396de083ca056a52e6cb2a787ab074.jpg,traffic sign_2,traffic sign,0.33692821860313416,IMG_1,-
+/Users/fredericdai/Desktop/Projet/images test/test/19_jpg.rf.af396de083ca056a52e6cb2a787ab074.jpg,phy_med_1,phy_med,0.9063774943351746,IMG_1,-
+/Users/fredericdai/Desktop/Projet/images test/test/19_jpg.rf.af396de083ca056a52e6cb2a787ab074.jpg,sidewalk_1,sidewalk,0.7954219579696655,IMG_1,-
+/Users/fredericdai/Desktop/Projet/images test/test/19_jpg.rf.af396de083ca056a52e6cb2a787ab074.jpg,crossing_1,crossing,0.7166960835456848,IMG_1,-
+/Users/fredericdai/Desktop/Projet/images test/test/19_jpg.rf.af396de083ca056a52e6cb2a787ab074.jpg,crossing_2,crossing,0.8970563411712646,IMG_1,-
+/Users/fredericdai/Desktop/Projet/images test/test/18a_jpg.rf.71fb69ce23310fda16ac3dc751d39c6f.jpg,traffic sign_3,traffic sign,0.454892098903656,IMG_2,-
+/Users/fredericdai/Desktop/Projet/images test/test/18a_jpg.rf.71fb69ce23310fda16ac3dc751d39c6f.jpg,traffic sign_4,traffic sign,0.41335558891296387,IMG_2,-
+/Users/fredericdai/Desktop/Projet/images test/test/18a_jpg.rf.71fb69ce23310fda16ac3dc751d39c6f.jpg,tree_2,tree,0.3890827000141144,IMG_2,-
+/Users/fredericdai/Desktop/Projet/images test/test/18a_jpg.rf.71fb69ce23310fda16ac3dc751d39c6f.jpg,phy_med_2,phy_med,0.8958951234817505,IMG_2,-
+/Users/fredericdai/Desktop/Projet/images test/test/18a_jpg.rf.71fb69ce23310fda16ac3dc751d39c6f.jpg,pole_1,pole,0.853993833065033,IMG_2,-
+/Users/fredericdai/Desktop/Projet/images test/test/18a_jpg.rf.71fb69ce23310fda16ac3dc751d39c6f.jpg,crossing_3,crossing,0.7326226234436035,IMG_2,-
+/Users/fredericdai/Desktop/Projet/images test/test/18a_jpg.rf.71fb69ce23310fda16ac3dc751d39c6f.jpg,sidewalk_2,sidewalk,0.5705612301826477,IMG_2,-
+/Users/fredericdai/Desktop/Projet/images test/test/18a_jpg.rf.71fb69ce23310fda16ac3dc751d39c6f.jpg,line1_4,line1,0.9406222105026245,IMG_2,-
+/Users/fredericdai/Desktop/Projet/images test/test/18a_jpg.rf.71fb69ce23310fda16ac3dc751d39c6f.jpg,line1_5,line1,0.9251933693885803,IMG_2,-
+/Users/fredericdai/Desktop/Projet/images test/test/18a_jpg.rf.71fb69ce23310fda16ac3dc751d39c6f.jpg,line1_6,line1,0.9111562967300415,IMG_2,-
+/Users/fredericdai/Desktop/Projet/images test/test/18a_jpg.rf.71fb69ce23310fda16ac3dc751d39c6f.jpg,line1_7,line1,0.8687867522239685,IMG_2,-
+/Users/fredericdai/Desktop/Projet/images test/test/18a_jpg.rf.71fb69ce23310fda16ac3dc751d39c6f.jpg,crossing_4,crossing,0.8553902506828308,IMG_2,-
+/Users/fredericdai/Desktop/Projet/images test/test/18a_jpg.rf.71fb69ce23310fda16ac3dc751d39c6f.jpg,line1_8,line1,0.8269885778427124,IMG_2,-
+/Users/fredericdai/Desktop/Projet/images test/test/18a_jpg.rf.71fb69ce23310fda16ac3dc751d39c6f.jpg,line1_9,line1,0.8187677264213562,IMG_2,-
+/Users/fredericdai/Desktop/Projet/images test/test/18a_jpg.rf.71fb69ce23310fda16ac3dc751d39c6f.jpg,line1_10,line1,0.7287300229072571,IMG_2,-
+/Users/fredericdai/Desktop/Projet/images test/test/18a_jpg.rf.71fb69ce23310fda16ac3dc751d39c6f.jpg,crossing_5,crossing,0.7173675894737244,IMG_2,-
+/Users/fredericdai/Desktop/Projet/images test/test/18a_jpg.rf.71fb69ce23310fda16ac3dc751d39c6f.jpg,line1_11,line1,0.46731969714164734,IMG_2,-
+/Users/fredericdai/Desktop/Projet/images test/test/8_jpg.rf.2e6837b25309bb11c0e0a122712171f5.jpg,tree_3,tree,0.38148629665374756,IMG_3,-
+/Users/fredericdai/Desktop/Projet/images test/test/8_jpg.rf.2e6837b25309bb11c0e0a122712171f5.jpg,pole_2,pole,0.8731741905212402,IMG_3,-
+/Users/fredericdai/Desktop/Projet/images test/test/8_jpg.rf.2e6837b25309bb11c0e0a122712171f5.jpg,crossing_6,crossing,0.7568829655647278,IMG_3,-
+/Users/fredericdai/Desktop/Projet/images test/test/8_jpg.rf.2e6837b25309bb11c0e0a122712171f5.jpg,line1_12,line1,0.9468379020690918,IMG_3,-
+/Users/fredericdai/Desktop/Projet/images test/test/8_jpg.rf.2e6837b25309bb11c0e0a122712171f5.jpg,line1_13,line1,0.9449989199638367,IMG_3,-
+/Users/fredericdai/Desktop/Projet/images test/test/8_jpg.rf.2e6837b25309bb11c0e0a122712171f5.jpg,crossing_7,crossing,0.8714472651481628,IMG_3,-
+/Users/fredericdai/Desktop/Projet/images test/test/8_jpg.rf.2e6837b25309bb11c0e0a122712171f5.jpg,line1_14,line1,0.7672157883644104,IMG_3,-
+/Users/fredericdai/Desktop/Projet/images test/test/8_jpg.rf.2e6837b25309bb11c0e0a122712171f5.jpg,line1_15,line1,0.6099765300750732,IMG_3,-
+/Users/fredericdai/Desktop/Projet/images test/test/8_jpg.rf.2e6837b25309bb11c0e0a122712171f5.jpg,line1_16,line1,0.4968535602092743,IMG_3,-
+/Users/fredericdai/Desktop/Projet/images test/test/5b_jpg.rf.9fb3d011784aa40cd443349d9797e90d.jpg,tree_4,tree,0.4421796500682831,IMG_4,-
+/Users/fredericdai/Desktop/Projet/images test/test/5b_jpg.rf.9fb3d011784aa40cd443349d9797e90d.jpg,traffic sign_5,traffic sign,0.3690023720264435,IMG_4,-
+/Users/fredericdai/Desktop/Projet/images test/test/5b_jpg.rf.9fb3d011784aa40cd443349d9797e90d.jpg,phy_med_3,phy_med,0.8922445774078369,IMG_4,-
+/Users/fredericdai/Desktop/Projet/images test/test/5b_jpg.rf.9fb3d011784aa40cd443349d9797e90d.jpg,line1_17,line1,0.9092773199081421,IMG_4,-
+/Users/fredericdai/Desktop/Projet/images test/test/5b_jpg.rf.9fb3d011784aa40cd443349d9797e90d.jpg,diamond_1,diamond,0.9056663513183594,IMG_4,-
+/Users/fredericdai/Desktop/Projet/images test/test/5b_jpg.rf.9fb3d011784aa40cd443349d9797e90d.jpg,diamond_2,diamond,0.8963224291801453,IMG_4,-
+/Users/fredericdai/Desktop/Projet/images test/test/5b_jpg.rf.9fb3d011784aa40cd443349d9797e90d.jpg,line1_18,line1,0.8897169232368469,IMG_4,-
+/Users/fredericdai/Desktop/Projet/images test/test/5b_jpg.rf.9fb3d011784aa40cd443349d9797e90d.jpg,line1_19,line1,0.7900773882865906,IMG_4,-
+/Users/fredericdai/Desktop/Projet/images test/test/5b_jpg.rf.9fb3d011784aa40cd443349d9797e90d.jpg,line1_20,line1,0.5455525517463684,IMG_4,-
+/Users/fredericdai/Desktop/Projet/images test/test/1.jpg,traffic light_1,traffic light,0.6398354172706604,IMG_5,-
+/Users/fredericdai/Desktop/Projet/images test/test/1.jpg,traffic light_2,traffic light,0.553747296333313,IMG_5,-
+/Users/fredericdai/Desktop/Projet/images test/test/1.jpg,traffic sign_6,traffic sign,0.37544095516204834,IMG_5,-
+/Users/fredericdai/Desktop/Projet/images test/test/1.jpg,sidewalk_3,sidewalk,0.807666003704071,IMG_5,-
+/Users/fredericdai/Desktop/Projet/images test/test/1.jpg,crossing_8,crossing,0.7761388421058655,IMG_5,-
+/Users/fredericdai/Desktop/Projet/images test/test/1.jpg,crossing_9,crossing,0.3032986521720886,IMG_5,-
+/Users/fredericdai/Desktop/Projet/images test/test/1.jpg,crossing_10,crossing,0.8869051337242126,IMG_5,-

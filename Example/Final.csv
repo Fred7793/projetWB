@@ -1,0 +1,15 @@
+Requirement categories,Attributes,Output
+Intersection Characteristics,Roundabout,None
+Intersection Characteristics,Grade-Junction,None
+Intersection Characteristics,Signalized Junction,Present
+Pedestrian Crossing,Signalized Crossing,Present
+Pedestrian Crossing,Marked Crossing,Present
+Dominant Roadside Object,Safety Barriers,None
+Dominant Roadside Object,Static Roadside Object,Present
+Dominant Roadside Object,Minor Hazards,Present
+Segment Characteristics,Pedestrian Facilities,Sidewalk
+Segment Characteristics,Central Hatching,None
+Segment Characteristics,Physical Median,Present
+Segment Characteristics,Safety Barrier,None
+Segment Characteristics,Bicycle Facilities,None
+Segment Characteristics,Road marking and Road sign,Good
